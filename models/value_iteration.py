@@ -1,3 +1,6 @@
+# Adapted from Matthew Alger, Inverse-Reinforcement-Learning (MIT License, Copyright (c) 2017 Matthew Alger),
+# https://github.com/MatthewJA/Inverse-Reinforcement-Learning (irl/value_iteration.py)
+
 import numpy as np
 
 def optimal_value(n_states, n_actions, transition_probabilities, reward, terminal_states,

@@ -1,11 +1,13 @@
 import sys
-sys.path.append("..")
 from gridworld import Gridworld
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 
 class ModelGridworld(Gridworld):
+	"""
+	gridworld used for the human extrapolation models
+	"""
 
 	def __init__(self, grid_list, reward_weights, trajectory_length = 5, discount = 1, rollout_horizon=20):
 		"""Initialize the gridworld environment.

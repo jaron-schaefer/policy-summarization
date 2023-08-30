@@ -1,5 +1,9 @@
 """
 Implements maximum entropy inverse reinforcement learning (Ziebart et al., 2008) (refer to  Lage et al. (2019))
+
+Feature expectations and expected state visitation frequencies are adapted from Matthew Alger,
+Inverse-Reinforcement-Learning (MIT License, Copyright (c) 2017 Matthew Alger),
+https://github.com/MatthewJA/Inverse-Reinforcement-Learning (irl/maxent.py)
 """
 from itertools import product
 import numpy as np

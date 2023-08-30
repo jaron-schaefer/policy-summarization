@@ -1,2 +1,9 @@
 __pycache__/
 .DS_Store
+.venv/
+
+# Player names and scores written while running the experiment
+experiment_code/highscores/*.yaml
+
+# EyeLink PyLink SDK (licensed by SR Research, install separately)
+experiment_code/pylink/

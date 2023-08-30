@@ -10,6 +10,7 @@ def load_highscores():
     :return: The loaded highscores
     :rtype: dict
     """
+    highscores = {}
     if os.path.exists(highscore_file):
         with open(highscore_file, 'r') as file:
             highscores = yaml.safe_load(file) or {}

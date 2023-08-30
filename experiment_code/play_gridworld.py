@@ -1,7 +1,7 @@
 import os
 import sys
 import pygame
-# Add bsc_scahefer abs path to sys paths
+# Add project root to sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from gridworld import Gridworld
