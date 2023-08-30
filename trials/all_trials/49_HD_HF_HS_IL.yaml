@@ -1,0 +1,324 @@
+COMMENT: ''
+DISCOUNT: 1
+EXTRACTION_HYPERPARAMETERS:
+  algorithm: extraction
+  kernel_params:
+    degree: 2
+    gamma: 0.1
+    kernel: poly
+  model: il
+  strategy: al
+  summary_length: 5
+GRIDWORLD_1:
+- '- G D - C - B'
+- B A - - - D -
+- B B D H C F D
+- D - - B E G E
+- B C E - C - D
+GRIDWORLD_2:
+- F - C B A H B
+- G - - - E - C
+- G - F F F B D
+- A F E G F D G
+- '- - - E D - -'
+MODEL_PATH_GRIDWORLD_1:
+- - 10
+  - 0
+- - 11
+  - 0
+- - 12
+  - 0
+- - 13
+  - 2
+MODEL_PATH_GRIDWORLD_2:
+- - 31
+  - 2
+- - 26
+  - 2
+- - 21
+  - 2
+- - 16
+  - 2
+- - 11
+  - 2
+- - 6
+  - 2
+MODEL_PATH_SIMILARITY: 0.1
+MODEL_PERFORMANCE_GRIDWORLD_1: 100
+MODEL_PERFORMANCE_GRIDWORLD_2: 68
+MODEL_REWARD_GRIDWORLD_1: 97
+MODEL_REWARD_GRIDWORLD_2: 65
+OPTIMAL_PATH_GRIDWORLD_1:
+- - 10
+  - 0
+- - 11
+  - 0
+- - 12
+  - 0
+- - 13
+  - 2
+OPTIMAL_PATH_GRIDWORLD_2:
+- - 31
+  - 0
+- - 32
+  - 2
+- - 27
+  - 0
+- - 28
+  - 0
+- - 29
+  - 2
+OPTIMAL_REWARD_GRIDWORLD_1: 97
+OPTIMAL_REWARD_GRIDWORLD_2: 96
+POLICY_GRIDWORLD_1:
+- 1
+- 1
+- 1
+- 2
+- 0
+- 1
+- 1
+- 1
+- 0
+- 0
+- 1
+- 1
+- 1
+- 3
+- 0
+- 1
+- 1
+- 1
+- 3
+- 0
+- 1
+- 3
+- 1
+- 3
+- 0
+- 1
+- 3
+- 1
+- 3
+- 0
+- 1
+- 1
+- 1
+- 3
+- 0
+POLICY_GRIDWORLD_2:
+- 1
+- 0
+- 0
+- 0
+- 0
+- 3
+- 3
+- 3
+- 0
+- 0
+- 3
+- 0
+- 3
+- 2
+- 2
+- 3
+- 0
+- 1
+- 1
+- 2
+- 3
+- 2
+- 1
+- 1
+- 0
+- 1
+- 1
+- 1
+- 1
+- 3
+- 1
+- 1
+- 3
+- 1
+- 3
+RECONSTRUCTED_REWARD_WEIGHTS: .nan
+RECONSTRUCTION_ACCURACY_GRIDWORLD_1: 0.7
+RECONSTRUCTION_ACCURACY_GRIDWORLD_2: 0.2857142857142857
+RECONSTRUCTION_HYPERPARAMETERS:
+  algorithm: reconstruction
+  kernel_params:
+    degree: 2
+    gamma: 0.1
+    kernel: poly
+  model: il
+REWARDS:
+- -1
+- 100
+- -1
+- -14
+- -1
+- -1
+- -16
+- -1
+- -1
+START_STATE_GRIDWORLD_1:
+- 2
+- 0
+START_STATE_GRIDWORLD_2:
+- 6
+- 1
+START_STATE_PATH_SIMILARITY: 0.25
+SUMMARY:
+- - - 30
+    - 0
+  - - 31
+    - 0
+  - - 32
+    - 0
+  - - 33
+    - 2
+  - - 28
+    - 2
+  - - 23
+    - 2
+  - - 18
+    - 2
+  - - 13
+    - 2
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+- - - 1
+    - 0
+  - - 2
+    - 0
+  - - 3
+    - 3
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+- - - 24
+    - 1
+  - - 23
+    - 2
+  - - 18
+    - 2
+  - - 13
+    - 2
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+- - - 4
+    - 1
+  - - 3
+    - 3
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+- - - 19
+    - 1
+  - - 18
+    - 2
+  - - 13
+    - 2
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+  - - 8
+    - 1
+SUMMARY_METHOD: IL
+TRIAL: 49_HD_HF_HS_IL_IL

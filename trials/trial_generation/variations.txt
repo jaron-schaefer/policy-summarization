@@ -1,0 +1,29 @@
+
+The gridworld always contains 1 or 2 goal states, which are the only terminal features
+
+Variations:
+
+Density of the grid world: (percentage of states that are not empty (step reward feautre)) 
+-HD High density = gauss(mu = 0.75, v = 0.05)
+-LD Low density = gauss(mu = 0.4, v = 0.05)
+
+Amount of features:
+- HF high amount of features(7,8,9) (one of those is the terminal state, one the normal state '-') weights = [0.25, 0.5, 0.25]
+- LF low amount of features (4,5,6) (one of those is the terminal state, one the normal state '-') weights = [0.25, 0.5, 0.25]
+
+Amount of distraction states:
+- HS high amount of distration states (0.75) each feature (except the termiall states) has an probability of 0.75 to be an distraction state
+- LS no distration states (0) each feature (except the terminall states) has an probability of 0 to be an distraction state
+
+
+
+Further variations:
+- high variance in rewards
+- low variance in rewards
+- BS bottleneck states 
+- discounts variation
+- varying grid size
+- amount of terminal states
+- stochstic transitions
+- time-dependent rewards
+- amount of goals states

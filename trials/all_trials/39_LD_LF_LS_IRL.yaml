@@ -1,0 +1,335 @@
+COMMENT: ''
+DISCOUNT: 1
+EXTRACTION_HYPERPARAMETERS:
+  algorithm: extraction
+  model: irl
+  summary_length: 5
+  to_make_multiple_summaries: 1
+GRIDWORLD_1:
+- A - C - - - C
+- E A - C E D -
+- '- F B B - D -'
+- '- - - - - D -'
+- '- - D - - - -'
+GRIDWORLD_2:
+- F D - - - B -
+- '- - - - A - -'
+- B - B - E - E
+- '- - F E - - E'
+- C - D - - - A
+MODEL_PATH_GRIDWORLD_1:
+- - 10
+  - 0
+- - 11
+  - 2
+- - 6
+  - 2
+- - 1
+  - 0
+- - 2
+  - 0
+- - 3
+  - 0
+MODEL_PATH_GRIDWORLD_2:
+- - 9
+  - 1
+- - 8
+  - 3
+- - 13
+  - 3
+- - 18
+  - 3
+MODEL_PATH_SIMILARITY: 2
+MODEL_PERFORMANCE_GRIDWORLD_1: 100
+MODEL_PERFORMANCE_GRIDWORLD_2: 100
+MODEL_REWARD_GRIDWORLD_1: 91
+MODEL_REWARD_GRIDWORLD_2: 97
+OPTIMAL_PATH_GRIDWORLD_1:
+- - 10
+  - 0
+- - 11
+  - 2
+- - 6
+  - 2
+- - 1
+  - 0
+- - 2
+  - 0
+- - 3
+  - 0
+OPTIMAL_PATH_GRIDWORLD_2:
+- - 9
+  - 1
+- - 8
+  - 3
+- - 13
+  - 3
+- - 18
+  - 3
+OPTIMAL_REWARD_GRIDWORLD_1: 91
+OPTIMAL_REWARD_GRIDWORLD_2: 97
+POLICY_GRIDWORLD_1:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 2
+- 0
+- 0
+- 1
+- 0
+- 2
+- 0
+- 2
+- 1
+- 0
+- 2
+- 2
+- 2
+- 1
+- 0
+- 2
+- 1
+- 2
+- 2
+- 2
+- 2
+- 2
+- 0
+- 2
+- 2
+- 1
+- 1
+- 1
+- 2
+POLICY_GRIDWORLD_2:
+- 0
+- 3
+- 0
+- 3
+- 1
+- 0
+- 0
+- 0
+- 3
+- 1
+- 3
+- 2
+- 0
+- 3
+- 1
+- 3
+- 0
+- 0
+- 3
+- 1
+- 3
+- 1
+- 0
+- 0
+- 1
+- 3
+- 1
+- 0
+- 2
+- 1
+- 0
+- 1
+- 0
+- 2
+- 1
+RECONSTRUCTED_REWARD_WEIGHTS:
+- -0.57300502
+- 14.8283037
+- -2.13281329
+- -3.22324078
+- -2.96267436
+- -0.34573838
+- -2.24864318
+- 0.93131507
+- 0.03945847
+RECONSTRUCTION_ACCURACY_GRIDWORLD_1: 1.0
+RECONSTRUCTION_ACCURACY_GRIDWORLD_2: 0.8
+RECONSTRUCTION_HYPERPARAMETERS:
+  algorithm: reconstruction
+  maxent_params:
+    discount: 1
+    epochs: 300
+    gd_threshold: 1.0e-05
+    learning_rate: 0.5
+    mc_rollouts: 0
+    par: false
+    rollout_horizon: 20
+  model: irl
+REWARDS:
+- -1
+- 100
+- -8
+- -10
+- -20
+- -5
+- -19
+- -16
+- -4
+START_STATE_GRIDWORLD_1:
+- 2
+- 0
+START_STATE_GRIDWORLD_2:
+- 1
+- 4
+START_STATE_PATH_SIMILARITY: 0.8333333333333334
+SUMMARY:
+- - - 33
+    - 1
+  - - 32
+    - 1
+  - - 31
+    - 1
+  - - 30
+    - 2
+  - - 25
+    - 2
+  - - 20
+    - 0
+  - - 21
+    - 2
+  - - 16
+    - 2
+  - - 11
+    - 2
+  - - 6
+    - 2
+  - - 1
+    - 0
+  - - 2
+    - 0
+  - - 3
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+- - - 28
+    - 0
+  - - 29
+    - 2
+  - - 24
+    - 2
+  - - 19
+    - 1
+  - - 18
+    - 2
+  - - 13
+    - 2
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+- - - 27
+    - 2
+  - - 22
+    - 1
+  - - 21
+    - 2
+  - - 16
+    - 2
+  - - 11
+    - 2
+  - - 6
+    - 2
+  - - 1
+    - 0
+  - - 2
+    - 0
+  - - 3
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+- - - 17
+    - 2
+  - - 12
+    - 0
+  - - 13
+    - 2
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+  - - 8
+    - 0
+- - - 5
+    - 0
+  - - 6
+    - 2
+  - - 1
+    - 0
+  - - 2
+    - 0
+  - - 3
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+  - - 4
+    - 0
+SUMMARY_METHOD: IRL
+TRIAL: 39_LD_LF_LS_IRL_IRL
