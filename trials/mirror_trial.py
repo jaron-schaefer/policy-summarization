@@ -2,8 +2,6 @@ import yaml
 import os
 from gridworld import Gridworld
 
-
-
 def mirror_trial(trial_path):
     assert os.path.splitext(trial_path)[1] == ".yaml"
     
