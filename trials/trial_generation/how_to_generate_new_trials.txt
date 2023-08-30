@@ -1,0 +1,5 @@
+1. decide on variations
+2. generate variations in experiment/trials/trial_generation/generate_gridworlds.py --> save_variation_combinations()
+3. generate gridworlds in experiment/trials/trial_generation/generate_gridworlds.py --> make_gridworlds_for_all_variations()
+4. run hyperparameterpipeline to get optimized summaries and model results
+5.

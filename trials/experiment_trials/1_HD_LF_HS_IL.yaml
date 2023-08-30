@@ -1,0 +1,423 @@
+COMMENT: ''
+DISCOUNT: 1
+EXTRACTION_HYPERPARAMETERS:
+  algorithm: extraction
+  kernel_params:
+    gamma: 0.1
+    kernel: rbf
+  model: il
+  strategy: al
+  summary_length: 5
+GRIDWORLD_1:
+- D F E - A - -
+- F B C - E D -
+- B G B - - C -
+- '- G C B G F G'
+- '- B D D - C F'
+GRIDWORLD_2:
+- '- B G D G A -'
+- G F B - - C E
+- '- C - D E - -'
+- '- - C C B C B'
+- C - B C C E C
+MODEL_PATH_GRIDWORLD_1:
+- - 25
+  - 0
+- - 26
+  - 0
+- - 27
+  - 0
+- - 28
+  - 0
+- - 29
+  - 2
+MODEL_PATH_GRIDWORLD_2:
+- - 0
+  - 0
+- - 1
+  - 0
+- - 2
+  - 0
+- - 3
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+- - 4
+  - 0
+MODEL_PATH_SIMILARITY: 2
+MODEL_PERFORMANCE_GRIDWORLD_1: 100
+MODEL_PERFORMANCE_GRIDWORLD_2: 0
+MODEL_REWARD_GRIDWORLD_1: 96
+MODEL_REWARD_GRIDWORLD_2: -50
+OLD_TRIAL_NAME: 11_HD_LF_HS_IL_IL
+OPTIMAL_PATH_GRIDWORLD_1:
+- - 25
+  - 0
+- - 26
+  - 0
+- - 27
+  - 0
+- - 28
+  - 0
+- - 29
+  - 2
+OPTIMAL_PATH_GRIDWORLD_2:
+- - 0
+  - 0
+- - 1
+  - 0
+- - 2
+  - 3
+- - 7
+  - 3
+- - 12
+  - 3
+- - 17
+  - 0
+- - 18
+  - 0
+- - 19
+  - 3
+- - 24
+  - 3
+OPTIMAL_REWARD_GRIDWORLD_1: 96
+OPTIMAL_REWARD_GRIDWORLD_2: 92
+POLICY_GRIDWORLD_1:
+- 1
+- 2
+- 1
+- 1
+- 2
+- 2
+- 2
+- 0
+- 1
+- 2
+- 2
+- 0
+- 1
+- 1
+- 2
+- 2
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 0
+- 1
+- 1
+- 1
+- 1
+- 3
+- 1
+- 1
+- 1
+- 1
+- 3
+POLICY_GRIDWORLD_2:
+- 1
+- 1
+- 2
+- 0
+- 0
+- 1
+- 1
+- 2
+- 0
+- 2
+- 1
+- 1
+- 2
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 2
+- 2
+- 1
+- 1
+- 1
+- 2
+- 1
+- 1
+- 1
+- 1
+- 0
+- 3
+- 1
+- 1
+- 1
+- 3
+RECONSTRUCTED_REWARD_WEIGHTS: .nan
+RECONSTRUCTION_ACCURACY_GRIDWORLD_1: 1.0
+RECONSTRUCTION_ACCURACY_GRIDWORLD_2: 0.6571428571428571
+RECONSTRUCTION_HYPERPARAMETERS:
+  algorithm: reconstruction
+  kernel_params:
+    gamma: 0.1
+    kernel: rbf
+  model: il
+REWARDS:
+- -1
+- 100
+- -5
+- -1
+- -1
+- -1
+- -1
+- -1
+- -1
+START_STATE_GRIDWORLD_1:
+- 5
+- 0
+START_STATE_GRIDWORLD_2:
+- 0
+- 0
+START_STATE_PATH_SIMILARITY: 0.2
+SUMMARY:
+- - - 5
+    - 3
+  - - 10
+    - 3
+  - - 15
+    - 3
+  - - 20
+    - 0
+  - - 21
+    - 0
+  - - 22
+    - 0
+  - - 23
+    - 0
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+- - - 2
+    - 0
+  - - 3
+    - 0
+  - - 4
+    - 3
+  - - 9
+    - 3
+  - - 14
+    - 3
+  - - 19
+    - 3
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+- - - 33
+    - 0
+  - - 34
+    - 2
+  - - 29
+    - 2
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+- - - 7
+    - 1
+  - - 6
+    - 3
+  - - 11
+    - 1
+  - - 10
+    - 3
+  - - 15
+    - 3
+  - - 20
+    - 0
+  - - 21
+    - 0
+  - - 22
+    - 0
+  - - 23
+    - 0
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+- - - 0
+    - 0
+  - - 1
+    - 3
+  - - 6
+    - 3
+  - - 11
+    - 1
+  - - 10
+    - 3
+  - - 15
+    - 3
+  - - 20
+    - 0
+  - - 21
+    - 0
+  - - 22
+    - 0
+  - - 23
+    - 0
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+  - - 24
+    - 1
+SUMMARY_METHOD: IL
+TRIAL: 1_HD_LF_HS_IL
