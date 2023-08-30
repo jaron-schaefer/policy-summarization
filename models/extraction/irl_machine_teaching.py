@@ -1,3 +1,7 @@
+"""
+Implements the SCOT machine teaching algorithm by Brown and Niekum (2019) (refer to  Lage et al. (2019))
+"""
+
 import numpy as np
 from scipy.optimize import linprog
 from copy import deepcopy

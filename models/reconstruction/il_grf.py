@@ -1,3 +1,6 @@
+"""
+Implements the Gaussian Random Field Model (GRF) by Zhu, Lafferty, et al., 2003 (refer to  Lage et al. (2019))
+"""
 import numpy as np
 from sklearn.metrics.pairwise import rbf_kernel
 from sklearn.metrics.pairwise import linear_kernel

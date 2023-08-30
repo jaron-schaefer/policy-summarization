@@ -1,3 +1,7 @@
+"""
+Implements the active learning algorithm by Zhu, Lafferty, et al. (2003) (refer to  Lage et al. (2019))
+"""
+
 import numpy as np
 from sklearn.metrics import accuracy_score
 

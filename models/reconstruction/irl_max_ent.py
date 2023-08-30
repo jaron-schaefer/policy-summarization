@@ -1,5 +1,5 @@
 """
-Implements maximum entropy inverse reinforcement learning (Ziebart et al., 2008)
+Implements maximum entropy inverse reinforcement learning (Ziebart et al., 2008) (refer to  Lage et al. (2019))
 """
 from itertools import product
 import numpy as np
